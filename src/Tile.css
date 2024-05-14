@@ -1,0 +1,37 @@
+.square {
+    width: 80px;
+    height: 80px;
+
+}
+
+.light-square {
+    background-color: #eceaff;
+    place-content: center;
+    display: grid;
+}
+
+.dark-square {
+    background-color: #4c1b65;
+    place-content: center;
+    display: grid;
+}
+
+.image {
+    width: 90px;
+}
+
+.piece {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+}
+
+.piece:hover {
+    cursor: grab;
+}
+
+.piece:active {
+    cursor: grabbing;
+}
